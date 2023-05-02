@@ -10,8 +10,6 @@ async def cat():
     await asyncio.sleep(4)
     print("meow")
 
-
-
 async def main():
     task_cat = asyncio.create_task(cat())
     task_dog = asyncio.create_task(dog())
